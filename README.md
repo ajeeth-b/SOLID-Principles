@@ -20,27 +20,28 @@ A class should have one and only one reason to change, meaning that a class shou
 - Loose coupling
 
 
-[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/SRP/example1)
+[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/SRP/example1/wrong.md)
 
 ## [OCP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/OCP)
 ```
 Objects or entities should be open for extension but closed for modification.
 ```
 
+- a new functionality should be implemented by adding new class, method or attributes, insted of changing current code.
 
-[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/OCP/example1)
-## LSP
+[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/OCP/example1/wrong.md)
+## [LSP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP)
 
 
-[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP/example1)
+[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP/example1/wrong.md)
 
 ## [ISP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP)
 - have smallest possible interface between class/obj when they communicate
 - keep your interfaces as small as posible
 
-[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP/example1)
+[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP/example1/wrong.md)
 
 ## [DIP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/DIP)
 - depend upon Interface/abstraction rather than concrete classes.
 
-[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/DIP/example1)
+[example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/DIP/example1/wrong.md)
