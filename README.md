@@ -32,12 +32,19 @@ Objects or entities should be open for extension but closed for modification.
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/OCP/example1/wrong.md)
 ## [LSP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP)
 
+```
+A is a sub type of B, then object of type B may be replaced with type A. 
+```
+
+- Derived type must be completly substitutable for their base types.
+- To maintain strong sub typing.
+- client should behave same regardless of sub type instance. 
 
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP/example1/wrong.md)
 
 ## [ISP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP)
 - have smallest possible interface between class/obj when they communicate
-- keep your interfaces as small as posible
+- keep your interfaces as small as posible.
 
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP/example1/wrong.md)
 
