@@ -11,18 +11,21 @@
 **D** - Dependency Inversion Principle(DIP)
 
 ## [SRP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/SRP)
-- One responsiblity
-- when we acheive SRP, the amount of posiblity increases
+```
+A class should have one and only one reason to change, meaning that a class should have only one job.
+```
+- when we acheive SRP, the amount of posiblity of code reusabilty increases
 - Code maintainablity
 - Dependency management
 - Loose coupling
-- Class should have one and only reason to update, which brings it should have single responsiblity
 
 
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/SRP/example1)
 
 ## [OCP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/OCP)
-- open for extension and closed for modification
+```
+Objects or entities should be open for extension but closed for modification.
+```
 
 
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/OCP/example1)
