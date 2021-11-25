@@ -43,6 +43,9 @@ A is a sub type of B, then object of type B may be replaced with type A.
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP/example1/wrong.md)
 
 ## [ISP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP)
+```
+A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to depend on methods they do not use.
+```
 - have smallest possible interface between class/obj when they communicate
 - keep your interfaces as small as posible.
 

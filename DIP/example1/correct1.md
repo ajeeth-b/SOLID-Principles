@@ -14,6 +14,14 @@ class ExpenseNotifier(Notifier):
     def notify(self, message: text):
         # code for popup notification
 
+class ExpenseMailNotifier(Notifier):
+
+    def __init__(self):
+        pass
+    
+    def notify(self, message: text):
+        # code for popup notification
+
 class ExpenseTracker():
 
     def __init__(self, max_amount: int, notifier: Notifier):
@@ -28,14 +36,16 @@ class ExpenseTracker():
 
 ```
 
+1)
 ```
 notifier = ExpenseNotifier()
 tracker = ExpenseTracker(100, notifier)
-tracker.track(30)
-tracker.track(60)
-tracker.track(20)
 ```
-
+2)
+```
+notifier = ExpenseMailNotifier()
+tracker = ExpenseTracker(100, notifier)
+```
 
 <div style="text-align: right"> <a href="./wrong.md">prev</a> </div>
 <div style="text-align: right"> <a href="./correct1.md">next</a> </div>
