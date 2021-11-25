@@ -35,3 +35,5 @@ shapes = [
 area_calculator = AreaCalculator(shapes)
 area_calculator.output()
 ```
+
+<div style="text-align: right"> <a href="./correct.md">next</a> </div>
