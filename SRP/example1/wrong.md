@@ -12,7 +12,7 @@ class AreaCalculator:
     def __init__(self, shapes):
         self.shapes = shapes
     
-    def calculate(self):
+    def sum(self):
         result = 0
         for shape in self.shapes:
             if type(shape) == Square:

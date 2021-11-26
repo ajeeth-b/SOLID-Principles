@@ -14,6 +14,14 @@ class Circle:
     def area(self):
         return self.pi * self.radius**2
 
+class Triangle:
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+    
+    def area(self):
+        return (self.base*self.height)/2
+
 
 class AreaCalculator:
     def __init__(self, shapes):
