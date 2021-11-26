@@ -1,4 +1,4 @@
-```
+```python
 class Notifier():
     def __init__(self):
         pass
@@ -28,7 +28,7 @@ class ExpenseTracker():
 
 ```
 
-```
+```python
 notifier = ExpenseNotifier()
 tracker = ExpenseTracker(100, notifier)
 tracker.track(30)
