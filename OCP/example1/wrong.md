@@ -12,7 +12,7 @@ class AreaCalculator:
     def __init__(self, shapes):
         self.shapes = shapes
     
-    def sum(self):
+    def calculate(self):
         result = 0
         for shape in self.shapes:
             if type(shape) == Square:
@@ -27,13 +27,13 @@ class CalculatorOutput:
         self.calculator = calculator
 
     def return_as_string(self):
-        str(self.calculator.sum())
+        str(self.calculator.calculate())
     
     def return_as_json(self):
-        to_json(self.calculator.sum())
+        to_json(self.calculator.calculate())
     
     def return_as_html(self):
-        to_html(self.calculator.sum())
+        to_html(self.calculator.calculate())
 ```
 
 
