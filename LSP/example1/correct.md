@@ -56,10 +56,13 @@ class VolumeCalculator(AreaCalculator):
         self.shapes = shapes
     
     def calculate(self):
+        return array_sum(self.calculate_array)
+
+    def calculate_array(self):
         result = []
         for shape in self.shapes:
             result += [shape.volume()]
-        return sum_of_array(result)
+        return result
 
 class CalculatorOutput:
     
