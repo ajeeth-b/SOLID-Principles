@@ -11,7 +11,7 @@
 **D** - Dependency Inversion Principle(DIP)
 
 ```
-The mail goal of SOLID principles is to reduce dependencies so that engineers change or add in one area of software without impacting others
+The mail goal of SOLID principles is to reduce dependencies so that  changes or addition in one area of software without impacting others.
 ```
 
 ## [SRP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/SRP)
