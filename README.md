@@ -10,6 +10,10 @@
 
 **D** - Dependency Inversion Principle(DIP)
 
+```
+The mail goal of SOLID principles is to reduce dependencies so that engineers change or add in one area of software without impacting others
+```
+
 ## [SRP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/SRP)
 ```
 A class should have one and only one reason to change, meaning that a class should have only one job.
