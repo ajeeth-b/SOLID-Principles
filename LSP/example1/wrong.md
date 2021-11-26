@@ -55,7 +55,7 @@ class VolumeCalculator(AreaCalculator):
         self.shapes = shapes
     
     def sum(self):
-        result = 0
+        result = []
         for shape in self.shapes:
             result += [shape.volume()]
         return result

@@ -33,7 +33,7 @@ Objects or entities should be open for extension but closed for modification.
 ## [LSP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/LSP)
 
 ```
-A is a sub type of B, then object of type B may be replaced with type A. 
+If A is a sub type of B, then object of type B may be replaced with type A. 
 ```
 
 - Derived type must be completly substitutable for their base types.

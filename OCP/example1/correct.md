@@ -54,7 +54,7 @@ class CalculatorOutput:
 shapes = [
     Square(4),
     Circle(5),
-    Triangle(5),
+    Triangle(5)
 ]
 
 area_calculator = AreaCalculator(shapes)
