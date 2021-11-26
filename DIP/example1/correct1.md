@@ -8,8 +8,8 @@ class Notifier():
 
 class ExpenseNotifier(Notifier):
 
-    def __init__(self):
-        pass
+    def __init__(self, mail_id):
+        self.mail_id = mail_id
     
     def notify(self, message: text):
         # code for popup notification
@@ -43,7 +43,7 @@ tracker = ExpenseTracker(100, notifier)
 ```
 2)
 ```python
-notifier = ExpenseMailNotifier()
+notifier = ExpenseMailNotifier('kidnapsingh@yahoo.com')
 tracker = ExpenseTracker(100, notifier)
 ```
 
