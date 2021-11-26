@@ -52,6 +52,9 @@ A client should never be forced to implement an interface that it doesn’t use,
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/ISP/example1/wrong.md)
 
 ## [DIP](https://github.com/ajeeth-b/SOLID-Principles/tree/master/DIP)
+```
+Entities must depend on abstractions, not on concretions. It states that the high-level module must not depend on the low-level module, but they should depend on abstractions.
+```
 - depend upon Interface/abstraction rather than concrete classes.
 
 [example1](https://github.com/ajeeth-b/SOLID-Principles/tree/master/DIP/example1/wrong.md)
