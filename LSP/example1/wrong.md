@@ -1,4 +1,4 @@
-```
+```python
 class Shape:
     def __init__(self):
         pass
@@ -77,7 +77,7 @@ class CalculatorOutput:
 
 
 ## Execution
-```
+```python
 
 area_calculator = AreaCalculator(shapes)
 output1 = CalculatorOutput(area_calculator)

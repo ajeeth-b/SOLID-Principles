@@ -1,4 +1,4 @@
-```
+```python
 class Square:
     def __init__(self, length):
         self.length = length
@@ -42,7 +42,7 @@ class CalculatorOutput:
 
 
 ## Execution
-```
+```python
 shapes = [
     Square(4),
     Circle(5)
