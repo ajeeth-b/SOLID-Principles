@@ -20,7 +20,7 @@ class ExpenseMailNotifier(Notifier):
         pass
     
     def notify(self, message: text):
-        # code for popup notification
+        # code to send mail notification
 
 class ExpenseTracker():
 
